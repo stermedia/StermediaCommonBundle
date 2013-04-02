@@ -8,7 +8,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Stermedia\CommonBundle;
+namespace Stermedia\Bundle\CommonBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

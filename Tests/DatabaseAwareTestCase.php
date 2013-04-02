@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Stermedia\CommonBundle\Tests;
+namespace Stermedia\Bundle\CommonBundle\Tests;
 
 use Symfony\Bridge\Doctrine\DataFixtures\ContainerAwareLoader;
 use Doctrine\ORM\Tools\SchemaTool;

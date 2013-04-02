@@ -5,7 +5,7 @@
  * (c) Stermedia <http://stermedia.pl/>
  */
 
-namespace Stermedia\CommonBundle\Extension\Twig;
+namespace Stermedia\Bundle\CommonBundle\Extension\Twig;
 
 /**
  * Localized Date Extension

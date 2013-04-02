@@ -6,7 +6,7 @@
  * (c) Stermedia <http://stermedia.pl/>
  */
 
-namespace Stermedia\CommonBundle\Controller;
+namespace Stermedia\Bundle\CommonBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\RedirectResponse;

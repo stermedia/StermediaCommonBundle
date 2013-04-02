@@ -5,7 +5,7 @@
  * (c) Stermedia <http://stermedia.pl/>
  */
 
-namespace Stermedia\CommonBundle\Util;
+namespace Stermedia\Bundle\CommonBundle\Util;
 
 use Symfony\Component\HttpFoundation\File\Exception\FileException;
 

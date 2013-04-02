@@ -6,7 +6,7 @@
  * (c) Stermedia <http://stermedia.pl/>
  */
 
-namespace Stermedia\CommonBundle\Tests;
+namespace Stermedia\Bundle\CommonBundle\Tests;
 
 use Symfony\Component\Console\Application;
 
