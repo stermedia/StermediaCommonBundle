@@ -1,13 +1,9 @@
-# Bootstrap
-app/bootstrap*
-
-# Symfony directories
-vendor/*
-*/logs/*
-*/cache/*
-web/uploads/*
-web/bundles/*
-
-# Configuration files
-app/config/parameters.ini
-app/config/parameters.yml
+## generic files to ignore
+*~
+*.DS_Store
+*.swp
+*.out
+*.idea
+ehthumbs.db
+Icon?
+Thumbs.db

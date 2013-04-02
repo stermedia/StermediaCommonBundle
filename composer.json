@@ -1,0 +1,33 @@
+{
+    "name": "stermedia/stermedia-common-bundle",
+    "type": "symfony-bundle",
+    "description": "Common bundle for Symfony2 projects",
+    "keywords": ["stermedia", "common", "symfony2", "bundle"],
+    "homepage": "http://github.com/Stermedia/StermediaCommonBundle",
+
+    "authors": [
+        {
+            "name": "Stermedia Team",
+            "homepage": "http://stermedia.eu"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.0"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Stermedia\\Bundle\\CommonBundle": ""
+        }
+    },
+
+    "target-dir": "Stermedia/Bundle/CommonBundle",
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev-master"
+        }
+    }
+}
