@@ -1,5 +1,5 @@
 services:
     twig.extension.localizedDate:
-        class: Stermedia\CommonBundle\Extension\Twig\LocalizedDateExtension
+        class: Stermedia\Bundle\CommonBundle\Extension\Twig\LocalizedDateExtension
         tags:
             - { name: twig.extension }
