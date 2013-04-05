@@ -1,0 +1,64 @@
+{# Common template based on html5 boilerplate v 4.1.0 #}
+{% block all %}<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{{app.request.locale}}"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="{{app.request.locale}}"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="{{app.request.locale}}"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="{{app.request.locale}}"> <!--<![endif]-->
+{% block head_outer %}
+    <head>
+        {% block head %}
+            {% block head_meta %}
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                <title>{% block head_title %}{% endblock %}</title>
+                <meta name="description" content="{% block head_meta_description %}{% endblock %}">
+                <meta name="keywords" content="{% block head_meta_keywords %}{% endblock %}">
+                <meta name="viewport" content="width=device-width">
+            {% endblock head_meta %}
+
+            {% block head_css %}
+            {% endblock head_css %}
+
+            {% block head_js %}
+            {% endblock head_js %}
+        {% endblock head %}
+    </head>
+{% endblock head_outer %}
+{% block body_outer %}
+    <body>
+    {%block body%}
+        {% block body_chromeframe %}
+            <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+            <![endif]-->
+        {% endblock body_chromeframe %}
+        {% block body_header_outer %}
+        <header>
+            {% block body_header %}{% endblock %}
+        </header>
+        {% endblock body_header_outer %}
+        {%block body_container%}
+            <div id="container">
+
+                <div id="sidebar">
+                    {% block body_container_sidebar %}{% endblock body_container_sidebar %}
+                </div>
+                <!--end div.sidebar-->
+                <div id="main" role="main">
+                    {% block body_container_main %}
+
+                    {% endblock %}
+                </div>
+            </div>
+        {%endblock body_container%}
+        {% block body_footer_outer %}
+            <footer>
+                {% block body_footer %}{% endblock body_footer %}
+            </footer>
+        {% endblock body_footer_outer %}
+        {% block body_js %}
+        {% endblock body_js %}
+    {% endblock body %}
+    </body>
+{% endblock body_outer %}
+</html>{% endblock all %}
