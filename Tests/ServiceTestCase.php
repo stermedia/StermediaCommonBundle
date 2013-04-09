@@ -21,16 +21,16 @@ abstract class ServiceTestCase extends ContainerAwareTestCase
     /**
      * Service object
      */
-    protected static $service;
+    protected $service;
 
     /**
      * Set up before class
      *
      * @param string $serviceName Name of the service to test
      */
-    public static function setUpBeforeClass($serviceName)
+    public function setUp($serviceName)
     {
-        parent::setUpBeforeClass();
-        self::$service = self::$container->get($serviceName);
+        parent::setUp();
+        $this->service = self::$container->get($serviceName);
     }
 }
