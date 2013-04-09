@@ -11,7 +11,9 @@ use Symfony\Component\Console\Application;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 /**
- * Common Web Test Case
+ * Container aware test case
+ *
+ * @author Jakub Paszkiewicz <j.paszkiewicz@stermedia.pl>
  */
 abstract class ContainerAwareTestCase extends WebTestCase
 {

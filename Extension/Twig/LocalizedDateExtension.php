@@ -1,8 +1,12 @@
 <?php
+
 /*
- * This file is part of the CommonBundle package.
+ * This file is part of the Stermedia\StermediaCommonBundle
  *
- * (c) Stermedia <http://stermedia.pl/>
+ * (c) Stermedia <http://stermedia.eu>
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
  */
 
 namespace Stermedia\Bundle\CommonBundle\Extension\Twig;
@@ -10,9 +14,7 @@ namespace Stermedia\Bundle\CommonBundle\Extension\Twig;
 /**
  * Localized Date Extension
  *
- * @package    CommonBundle
- * @subpackage TwigExtensions
- * @author     Jakub Paszkiewicz <paszkiewicz.jakub@gmail.com>
+ * @author     Jakub Paszkiewicz <j.paszkiewicz@stermedia.pl>
  */
 class LocalizedDateExtension extends \Twig_Extension
 {

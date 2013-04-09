@@ -12,7 +12,9 @@
 namespace Stermedia\Bundle\CommonBundle\Tests;
 
 /**
- * Abstract service test
+ * Abstract Service test case
+ *
+ * @author Jakub Paszkeiwicz <j.paszkiewicz@stermedia.pl>
  */
 abstract class ServiceTestCase extends ContainerAwareTestCase
 {

@@ -11,7 +11,9 @@ namespace Stermedia\Bundle\CommonBundle\Tests;
 use Symfony\Component\Console\Application;
 
 /**
- * Common Web Test Case
+ * Client aware test case
+ *
+ * @author Jakub Paszkiewicz <j.paszkiewicz@stermedia.pl>
  */
 abstract class ClientAwareWebTestCase extends DatabaseAwareTestCase
 {

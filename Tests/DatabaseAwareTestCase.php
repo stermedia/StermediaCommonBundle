@@ -20,7 +20,7 @@ use \Doctrine\DBAL\Driver\PDOSqlite\Driver as SqliteDriver;
 /**
  * Database aware test case
  *
- * @author Jakub Paszkiewicz <paszkiewicz.jakub@gmail.com>
+ * @author Jakub Paszkiewicz <j.paszkiewicz@stermedia.pl>
  */
 abstract class DatabaseAwareTestCase extends ContainerAwareTestCase
 {

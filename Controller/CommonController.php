@@ -1,9 +1,12 @@
 <?php
 
 /*
- * This file is part of the CommonBundle package.
+ * This file is part of the Stermedia\StermediaCommonBundle
  *
- * (c) Stermedia <http://stermedia.pl/>
+ * (c) Stermedia <http://stermedia.eu>
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
  */
 
 namespace Stermedia\Bundle\CommonBundle\Controller;
@@ -14,10 +17,7 @@ use Symfony\Component\HttpFoundation\RedirectResponse;
 /**
  * Common controller.
  *
- * @package    CommonBundle
- * @subpackage Controllers
- * @author     Jakub Paszkiewicz <paszkiewicz.jakub@gmail.com>
- * @author     Krzysztof Niziol <krzysztof.niziol@meritoo.pl>
+ * @author     Jakub Paszkiewicz <j.paszkiewicz@stermedia.pl>
  */
 abstract class CommonController extends Controller
 {

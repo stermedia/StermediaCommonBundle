@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the Stermedia\StermediaCommonBundle
  *
@@ -15,7 +16,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 /**
  * Common bundle
  *
- * @author  Jakub Paszkiewicz <paszkiewicz.jakub@gmail.com>
+ * @author Jakub Paszkiewicz <j.paszkiewicz@stermedia.pl>
  */
 class StermediaCommonBundle extends Bundle
 {
