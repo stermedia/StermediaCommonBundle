@@ -4,7 +4,7 @@
     "description": "Common bundle for Symfony2 projects",
     "keywords": ["stermedia", "common", "symfony2", "bundle"],
     "homepage": "http://github.com/Stermedia/StermediaCommonBundle",
-
+    "license": "MIT",
     "authors": [
         {
             "name": "Stermedia Team",
