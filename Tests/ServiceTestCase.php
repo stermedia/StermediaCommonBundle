@@ -28,7 +28,7 @@ abstract class ServiceTestCase extends ContainerAwareTestCase
      *
      * @param $serviceName
      */
-    public function getService($serviceName)
+    public function setServiceToTest($serviceName)
     {
         $this->service = self::$container->get($serviceName);
     }
